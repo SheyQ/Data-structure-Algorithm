@@ -8,18 +8,19 @@ Data structure&amp;Algorithm in C++
 
 
 **已完成**：
+
 | Name | File |
 |------|------|
-|Binarysearch|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/binarysearch.cpp |
+|Binarysearch |https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/binarysearch.cpp |
 |Bubblesort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/bubblesort.cpp |
 |Insertsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/insertsort.cpp |
 |Mergesort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/mergesort.cpp |
 |Quicksort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/quicksort.cpp |
 |Selectsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/selectsort.cpp |
-|Shellsort| https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/shellsort.cpp |
-|Heap.h| https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.h |
-|Heap.cpp| https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.cpp |
-|Heapsort| https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heapsort.cpp |
+|Shellsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/shellsort.cpp |
+|Heap.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.h |
+|Heap.cpp|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.cpp |
+|Heapsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heapsort.cpp |
 
 
 Continue...
