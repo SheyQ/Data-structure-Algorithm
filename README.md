@@ -5,6 +5,9 @@ Data structure&amp;Algorithm in C++
     所以我就用简单的写法整理下我理解的数据结构和基础算法。
 
 **已完成**：
+
+
 | Name | File |
 |------|------|
-|binary search|Data-structure-Algorithm/Algorithm/binarysearch.cpp|
+|binarysearch|Data-structure-Algorithm/Algorithm/binarysearch.cpp |
+|bubblesort|Data-structure-Algorithm/Algorithm/bubblesort.cpp |
