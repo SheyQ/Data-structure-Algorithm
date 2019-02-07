@@ -29,7 +29,7 @@ void Heap::insert(int value)
 	_vec.push_back(value);
 	while (curr != 0)
 	{
-		if (_vec[curr] < _vec[parent(curr)])
+		if (comp(_vec[curr] , _vec[parent(curr)]))
 		{
 			swap(_vec[curr], _vec[parent(curr)]);
 			curr = parent(curr);
@@ -73,6 +73,17 @@ int Heap::removeroot()
 // int main(int argc, char const *argv[])
 // {
 // 	//test
+// 	Heap MinHeapDefault;
+// 	MinHeapDefault.insert(1);
+// 	MinHeapDefault.insert(6);
+// 	MinHeapDefault.insert(10);
+// 	MinHeapDefault.insert(14);
+// 	MinHeapDefault.printHeap();
+// 	Heap MaxHeapDefault([](int a, int b) {return a > b;});
+// 	MaxHeapDefault.insert(6);
+// 	MaxHeapDefault.insert(10);
+// 	MaxHeapDefault.insert(14);
+// 	MaxHeapDefault.printHeap();
 // 	Heap MinHeapByList{1, 2, 4, 3, 4, 6, 8, 1, 6, 4, 2};
 // 	Heap MaxHeapByList({1, 2, 4, 3, 4, 6, 8, 1, 6, 4, 2}, greater<int>());
 // 	vector<int> vec{3, 3, 6, 6, 7, 3, 5, 7, 1, 6};
