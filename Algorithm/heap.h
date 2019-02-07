@@ -15,10 +15,10 @@ private:
 	int heapsize;
 	compare comp;
 public:
-	Heap() = delete;
+	//default minheap
+	Heap(compare c = less<int>()): heapsize(0), comp(c) {}
 	~Heap() = default;
 
-	//default minheap
 	//c++11 construct with list
 	//such as Heap{4,3,2,1}
 	Heap(initializer_list<int> list, compare c = less<int>()): _vec(list.begin(), list.end()), heapsize(list.size()), comp(c)
@@ -38,7 +38,7 @@ public:
 	int remove(int pos);
 	int removeroot();
 
-	int size()
+	int size() const
 	{
 		return heapsize;
 	}
