@@ -22,6 +22,6 @@ Happy New Year~
 |Heap.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.h |
 |Heap.cpp|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.cpp |
 |Heapsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heapsort.cpp |
-
+|Stack.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/stack.h|
 
 Continue...
