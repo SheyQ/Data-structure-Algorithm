@@ -8,8 +8,16 @@ class queue
 		listnode(listnode* node, T v): next(node), value(v) {}
 	};
 public:
-	queue(): size(0) {}
-	~queue() = default;
+	queue(): begin(nullptr), end(nullptr), size(0) {}
+	~queue()
+	{
+		while (begin != nullptr)
+		{
+			listnode* temp = begin;
+			begin = begin->next;
+			delete temp;
+		}
+	}
 
 	void enqueue(const T& value)
 	{
