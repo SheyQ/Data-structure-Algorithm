@@ -13,6 +13,28 @@ BST::treenode* BST::find(int val)
 	return temp;
 }
 
+int BST::deletemin(treenode*& node)
+{
+	if (node->left == nullptr)
+	{
+		int res = node->value;
+		if (node->right != nullptr)
+		{
+			treenode* temp = node;
+			node = node->right;
+			delete temp;
+		}
+		else
+		{
+			delete node;
+			node = nullptr;
+		}
+		return res;
+	}
+	else
+		return deletemin(node->left);
+}
+
 void BST::insert(int val)
 {
 	if (nodecount == 0) root->value = val;

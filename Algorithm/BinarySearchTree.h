@@ -45,25 +45,5 @@ private:
 	int nodecount;
 	bool removehelp(treenode*& node, int val);
 	void print(treenode* node);
-	int deletemin(treenode*& node)
-	{
-		if (node->left == nullptr)
-		{
-			int res = node->value;
-			if (node->right != nullptr)
-			{
-				treenode* temp = node;
-				node = node->right;
-				delete temp;
-			}
-			else
-			{
-				delete node;
-				node = nullptr;
-			}
-			return res;
-		}
-		else
-			return deletemin(node->left);
-	}
+	int deletemin(treenode*& node);
 };
