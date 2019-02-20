@@ -32,10 +32,10 @@ void AVL::print(treenode* node)
 /* LL(insert into leftchild's leftsubtree of k1):
     sigle rotate
 
-        k1				    k2
-       /  \				   /  \
+        k1			    k2
+       /  \			   /  \
       k2   A  			  B    K1
-     /  \       ==>      /    / \
+     /  \       ==>              /    / \
     B    C  			D    C   A
    /
   D
@@ -53,13 +53,13 @@ AVL::treenode* AVL::LLrotate(treenode* k1)
 /* RR(insert into rightchild's rightsubtree of k1):
 	sigle rotate
 
-        k1				    	k2
-       /  \				  	   /  \
+        k1				k2
+       /  \		       	       /  \
       A   k2  			      k1   C
-         /  \       ==>      / \    \
-    	B    C  			A   B    D
-   	   		  \
-  	  		   D
+         /  \       ==>               / \    \
+    	B    C  		     A   B    D
+   	      \
+  	       D
  */
 AVL::treenode* AVL::RRrotate(treenode* k1)
 {
@@ -93,11 +93,11 @@ AVL::treenode* AVL::LRrotate(treenode* k1)
 
       k1                       		  k1                        k3
      /  \                      		 /  \                      /  \
-    A   k2                   	    A    k3                   k1   k2
-	   /  \         ==>                 /  \        ==>      /    /  \
-	  k3    B                          C   k2          		A    C    B
-	 /                        				 \
-	C                         				  B
+    A   k2                   	         A    k3                   k1   k2
+       /  \         ==>                 /  \        ==>           /    /  \
+      k3    B                          C   k2          		 A    C    B
+     /                        		     \
+    C                         		      B
 */
 AVL::treenode* AVL::RLrotate(treenode* k1)
 {
