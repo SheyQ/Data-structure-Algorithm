@@ -17,6 +17,11 @@ class BST
 			this->right = new treenode(val);
 		}
 	};
+	
+private:
+	treenode* root;
+	int nodecount;
+
 public:
 	BST(): root(new treenode(0)), nodecount(0) {};
 	~BST() {clearall(root);}
@@ -28,7 +33,6 @@ public:
 		if (nodecount == 0) return false;
 		else return removehelp(root, val);
 	}
-	void clearall(treenode* node);
 	void printbyorder()
 	{
 		std::cout << "printbyorder:";
@@ -41,8 +45,7 @@ public:
 	}
 
 private:
-	treenode* root;
-	int nodecount;
+	void clearall(treenode* node);
 	bool removehelp(treenode*& node, int val);
 	void print(treenode* node);
 	int deletemin(treenode*& node);
