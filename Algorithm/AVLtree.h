@@ -18,6 +18,11 @@ class AVL
 			this->right = new treenode(val, h);
 		}
 	};
+	
+private:
+	treenode* root;
+	int nodecount;
+
 public:
 	AVL(): root(new treenode(0, 0)), nodecount(0) {};
 	~AVL() {clearall(root);}
@@ -51,8 +56,6 @@ public:
 	}
 
 private:
-	treenode* root;
-	int nodecount;
 	int max(int a, int b)
 	{
 		return a > b ? a : b;
