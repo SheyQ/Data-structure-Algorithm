@@ -15,9 +15,9 @@ class RBtree
 private:
 	/*旋转时根节点可能发生变化,维护一个head节点与根节点相互以parent指向
 	左子节点指向最左(即最小)节点,右子节点指向最右(即最大)节点.
-		O <-head
-		|
-		O <-root
+	    O <-head
+	    |
+	    O <-root
 	   / \
 	  A   B
 	 */
