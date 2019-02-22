@@ -79,10 +79,10 @@ r2插入在r1左子节点违反规则,对b右旋转
 改变r1和b的颜色(在之后的rebalance调整里进行，rotate函数只进行旋转.)
 假设A,B为nullptr
      b               r1              b(r1)
-    / \			    / \				/ \
+    / \	            / \		     / \
    r1  A   ==>     r2  b    ==>	   r2  r3(b)
   / \                 / \              / \
- r2  B				 B	 A            B   A
+ r2  B		     B	 A            B   A
 */
 void RBtree::right_rotate(treenode* node)
 {
