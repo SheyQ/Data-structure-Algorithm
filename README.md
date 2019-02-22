@@ -8,22 +8,22 @@ Data structure&amp;Algorithm in C++
 
 | Name | File |
 |------|------|
-|Binarysearch |https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/binarysearch.cpp |
-|Bubblesort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/bubblesort.cpp |
-|Insertsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/insertsort.cpp |
-|Mergesort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/mergesort.cpp |
-|Quicksort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/quicksort.cpp |
-|Selectsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/selectsort.cpp |
-|Shellsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/shellsort.cpp |
-|Heap.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.h |
+|Binarysearch-二分搜索|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/binarysearch.cpp |
+|Bubblesort-冒泡排序|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/bubblesort.cpp |
+|Insertsort-插入排序|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/insertsort.cpp |
+|Mergesort-归并排序|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/mergesort.cpp |
+|Quicksort-快速排序|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/quicksort.cpp |
+|Selectsort-选择排序|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/selectsort.cpp |
+|Shellsort-希尔排序|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/shellsort.cpp |
+|Heap.h-堆|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.h |
 |Heap.cpp|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heap.cpp |
-|Heapsort|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heapsort.cpp |
-|Stack.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/stack.h|
-|Queue.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/queue.h|
-|BST.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/BinarySearchTree.h|
+|Heapsort-堆排序|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/heapsort.cpp |
+|Stack.h-栈|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/stack.h|
+|Queue.h-队列|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/queue.h|
+|BST.h-二叉搜索树|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/BinarySearchTree.h|
 |BST.cpp|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/BinarySearchTree.cpp|
-|AVL.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/AVLtree.h|
+|AVL.h-AVL树|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/AVLtree.h|
 |AVL.cpp|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/AVLtree.cpp|
-|RBtree.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/RBtree.h|
+|RBtree.h-红黑树|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/RBtree.h|
 |RBtree.cpp|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/RBtree.cpp|
 Continue...
