@@ -1,9 +1,8 @@
 # Data-structure-Algorithm
 Data structure&amp;Algorithm in C++
 
-用简单的写法整理下我理解的数据结构和基础算法.  
+用简单的写法整理下常见的数据结构和基础算法.  
 在每个完成的cpp文件下都附有相应的简单测试.  
-大多以STL的实现为标准.
 
 **已完成**：
 
