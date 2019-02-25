@@ -26,4 +26,6 @@ Data structure&amp;Algorithm in C++
 |AVL.cpp|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/AVLtree.cpp|
 |RBtree.h-红黑树|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/RBtree.h|
 |RBtree.cpp|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/RBtree.cpp|
+|Hash_table.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/hash_table.h|
+|Hash_map.h|https://github.com/SheyQ/Data-structure-Algorithm/blob/master/Algorithm/hash_map.h|
 Continue...
