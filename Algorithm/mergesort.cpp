@@ -16,21 +16,13 @@ void mergesort(T* arr, T* temp, int start, int end)
 	for (int i = start; i <= end; i++)
 	{
 		if (i1 == mid + 1)
-		{
 			arr[i] = temp[i2++];
-		}
 		else if (i2 == end + 1)
-		{
 			arr[i] = temp[i1++];
-		}
 		else if (temp[i1] < temp[i2])
-		{
 			arr[i] = temp[i1++];
-		}
 		else
-		{
 			arr[i] = temp[i2++];
-		}
 	}
 }
 
