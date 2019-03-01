@@ -16,11 +16,11 @@ const static int INF = __INT_MAX__;
  */
 
 int matrix[6][6] = {{INF, INF, 1, INF, 1, INF},
-					{INF, INF, 1, INF, INF, INF},
-					{1, 1, INF, 1, INF, INF},
-					{INF, INF, 1, INF, INF, 1},
-					{1, INF, INF, INF, INF, 1},
-					{INF, INF, INF, 1, 1, INF}
+		   {INF, INF, 1, INF, INF, INF},
+		   {1, 1, INF, 1, INF, INF},
+		   {INF, INF, 1, INF, INF, 1},
+	           {1, INF, INF, INF, INF, 1},
+		   {INF, INF, INF, 1, 1, INF}
 				};
 
 int visited[6] = {0};
