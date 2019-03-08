@@ -8,7 +8,7 @@ void quicksort(T* arr, int start, int end)
 	int i = start + 1, j = end, pivot = arr[start]; //轴值的选择多种多样，最稳当的方式是三点中值法(Median-of-Three)，这里简单的选择数组第一个值arr[start]为轴值
 	while (i < j)
 	{
-		while (j != 0 && arr[j] > pivot) j--;
+		while (j != i && arr[j] > pivot) j--;
 		while (i != j && arr[i] < pivot) i++;
 		if (i < j)
 			std::swap(arr[i++], arr[j--]);
